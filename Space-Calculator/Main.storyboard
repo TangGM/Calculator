@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Space_Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="space-bg" translatesAutoresizingMaskIntoConstraints="NO" id="857-CR-49z">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="857-CR-49z" secondAttribute="height" multiplier="1:1" id="cUf-na-9ZO"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Cug-ps-QPv">
+                                <rect key="frame" x="174" y="93" width="252" height="443"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="counter" translatesAutoresizingMaskIntoConstraints="NO" id="zJ2-cU-qjO">
+                                        <rect key="frame" x="0.0" y="0.0" width="252" height="64"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="252" id="fVE-dx-13L"/>
+                                            <constraint firstAttribute="height" constant="64" id="lm1-5k-uPO"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backpanel" translatesAutoresizingMaskIntoConstraints="NO" id="cbn-uE-7jt">
+                                        <rect key="frame" x="0.0" y="64" width="252" height="379"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="379" id="7wA-Jl-Zo9"/>
+                                            <constraint firstAttribute="width" constant="252" id="RzB-lk-Vt8"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Hj4-Uy-eMI">
+                                <rect key="frame" x="193" y="178" width="213" height="63"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Foh-8u-S33">
+                                        <rect key="frame" x="0.0" y="0.0" width="61" height="63"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="63" id="9UR-P1-ncH"/>
+                                            <constraint firstAttribute="width" constant="61" id="Rgt-8b-Sbs"/>
+                                        </constraints>
+                                        <state key="normal" image="7"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eIV-lA-pWR">
+                                        <rect key="frame" x="76" y="0.0" width="61" height="63"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="63" id="US4-Py-LPD"/>
+                                            <constraint firstAttribute="width" constant="61" id="ihz-MZ-sXH"/>
+                                        </constraints>
+                                        <state key="normal" image="8"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sk1-J3-ESy">
+                                        <rect key="frame" x="152" y="0.0" width="61" height="63"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="63" id="G5L-ys-g0v"/>
+                                            <constraint firstAttribute="width" constant="61" id="cHR-Av-mEu"/>
+                                        </constraints>
+                                        <state key="normal" image="9"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="857-CR-49z" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="0r0-kO-wPn"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="857-CR-49z" secondAttribute="bottom" id="6g5-TG-PCM"/>
+                            <constraint firstItem="Cug-ps-QPv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZuL-tB-9Hc"/>
+                            <constraint firstItem="857-CR-49z" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="izm-eD-Bqj"/>
+                            <constraint firstAttribute="trailing" secondItem="857-CR-49z" secondAttribute="trailing" id="rvc-9W-Zu1"/>
+                            <constraint firstItem="Cug-ps-QPv" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="xhB-pY-v7a"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="560" y="479"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="7" width="111" height="114"/>
+        <image name="8" width="111" height="114"/>
+        <image name="9" width="111" height="114"/>
+        <image name="backpanel" width="620" height="938"/>
+        <image name="counter" width="516" height="133"/>
+        <image name="space-bg" width="988" height="946"/>
+    </resources>
+</document>
