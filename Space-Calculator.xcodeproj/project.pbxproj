@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7E9210FF1C21C7B3000F91FD /* other graphics in Resources */ = {isa = PBXBuildFile; fileRef = 7E9210FE1C21C7B3000F91FD /* other graphics */; };
 		7EA137201C1EF1ED00811490 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA1371F1C1EF1ED00811490 /* AppDelegate.swift */; };
 		7EA137221C1EF1ED00811490 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA137211C1EF1ED00811490 /* ViewController.swift */; };
 		7EA137271C1EF1ED00811490 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EA137261C1EF1ED00811490 /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7E9210FE1C21C7B3000F91FD /* other graphics */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "other graphics"; sourceTree = "<group>"; };
 		7EA1371C1C1EF1ED00811490 /* Space-Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space-Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EA1371F1C1EF1ED00811490 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EA137211C1EF1ED00811490 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,7 +64,6 @@
 				7EA137211C1EF1ED00811490 /* ViewController.swift */,
 				7EA137311C1EF20D00811490 /* Main.storyboard */,
 				7EA137261C1EF1ED00811490 /* Assets.xcassets */,
-				7E9210FE1C21C7B3000F91FD /* other graphics */,
 				7EA137281C1EF1EE00811490 /* LaunchScreen.storyboard */,
 				7EA1372B1C1EF1EE00811490 /* Info.plist */,
 			);
@@ -135,7 +132,6 @@
 				7EA9D0FA1C20610200DE976E /* btn.wav in Resources */,
 				7EA137321C1EF20D00811490 /* Main.storyboard in Resources */,
 				7EA1372A1C1EF1EE00811490 /* LaunchScreen.storyboard in Resources */,
-				7E9210FF1C21C7B3000F91FD /* other graphics in Resources */,
 				7EABB3651C1F3497002337E8 /* Minecraft.ttf in Resources */,
 				7EA137271C1EF1ED00811490 /* Assets.xcassets in Resources */,
 			);
