@@ -21,7 +21,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchbg.png" translatesAutoresizingMaskIntoConstraints="NO" id="0gG-az-uKX">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchground.png" translatesAutoresizingMaskIntoConstraints="NO" id="QPh-Y7-Jfw">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Retro-Calc.png" translatesAutoresizingMaskIntoConstraints="NO" id="QPh-Y7-Jfw">
                                 <rect key="frame" x="124" y="51" width="353" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="353" id="tFg-kx-YiF"/>
@@ -64,6 +64,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Retro-Calc.png" width="988" height="946"/>
         <image name="launchbg.png" width="1433" height="957"/>
         <image name="launchground.png" width="999" height="225"/>
         <image name="robot.png" width="786" height="402"/>

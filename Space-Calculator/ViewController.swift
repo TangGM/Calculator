@@ -89,6 +89,21 @@ class ViewController: UIViewController {
         processOperation(currentOpration)
     }
     
+    @IBAction func clear(sender: AnyObject) {
+        clear()
+        playSound()
+        ouputLbl.text = "0"
+    }
+    
+    func clear() {
+        runningNumber = ""
+        leftValStr = ""
+        rightValStr = ""
+        currentOpration = Operation.Empty
+        
+        result = ""
+    }
+    
     func processOperation(op: Operation) {
         playSound()
         
